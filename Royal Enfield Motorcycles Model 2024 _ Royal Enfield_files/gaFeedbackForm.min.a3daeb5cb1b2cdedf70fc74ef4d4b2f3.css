@@ -1,0 +1,106 @@
+.feedback-wrapper .modal-content{border-radius:0;border:0}
+.grey-section-slider.slick-slider .slick-prev:before,.grey-section-slider.slick-slider .slick-next:before{font-size:14px;color:#000}
+.grey-section-slider.slick-slider .slick-next{right:-3px}
+.grey-section-slider.slick-slider .slick-prev{left:-3px}
+a.custom-btn.bor.arrow-r.clr-w.black-btn.submitButton{display:table}
+.first-text{width:28%}
+.grey-btn:before{margin-top:-6px}
+.step-3 h2{width:30%}
+button.close-feedback{position:absolute;right:10px;border:1px solid #000;border-radius:50%;padding:4px 10px;color:#000;font-size:20px;top:10px;background:0;cursor:pointer;z-index:22}
+.feedback{padding:45px 0 20px 60px}
+.close-feedback span.icon-close{font-size:10px}
+.close-feedback span.icon-close:before{font-weight:700}
+.feedback-wrapper .modal-dialog.modal-lg.modal-dialog-centered{max-width:85%}
+.feedback-wrapper .modal-body{padding:0}
+.feedback h2{font-size:28px;line-height:28px}
+.step-1 p{padding:20px 0 30px}
+a.custom-btn.bor.arrow-r.clr-w.black-btn{background:#000;margin:50px 0}
+a.custom-btn.bor.arrow-r.clr-w.black-btn:hover{color:#fff}
+.feedback-wrapper .custom-radio{width:auto;display:inline-block;vertical-align:middle;margin-right:25px}
+.feedback-wrapper .custom-radio input[type=radio].with-font{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.feedback-wrapper .custom-radio label{text-transform:capitalize;font-weight:normal;margin-bottom:0;position:relative;color:#555;font-size:14px;cursor:pointer;text-transform:capitalize}
+.feedback-wrapper .custom-radio input[type=radio].with-font ~ label:before{-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}
+.feedback-wrapper .custom-radio input[type=radio].with-font ~ label:before{content:"";width:22px;height:22px;border:solid thin #656565;display:inline-block;vertical-align:middle;cursor:pointer}
+.feedback-wrapper .custom-radio span{padding:0 10px 0 5px;vertical-align:middle}
+.feedback-wrapper .custom-radio input[type=radio].with-font ~ label:after{content:"";width:16px;height:16px;background:rgba(218,41,28,0);display:inline-block;position:absolute;left:4%;top:14%;transform:translateY(0)}
+.feedback-wrapper .custom-radio input[type=radio].with-font ~ label:after{-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}
+.feedback-wrapper .custom-radio.active input[type=radio].with-font ~ label:after{background:#da291c}
+.feedback{display:block;width:100%;position:absolute;z-index:2}
+.form-motor{display:flex;align-items:flex-start;position:relative;justify-content:flex-end}
+.radio-btn h4{padding-bottom:15px}
+.motorcycle-view{align-self:flex-end}
+.motorcycle-view img{width:370px}
+a.custom-btn.bor.arrow-r.clr-w.grey-btn{color:#000;border-color:#000;width:fit-content;margin:0 auto 29px}
+a.custom-btn.bor.arrow-r.clr-w.grey-btn:hover{color:#fff;border-color:#000;background:#000}
+.grey-section img{width:270px;padding:16px 30px;object-fit:cover;margin:0 auto}
+.grey-section h3{font-size:22px}
+.grey-section{background:#e5e3e3;position:relative;width:330px;text-align:center;display:flex;flex-direction:column;justify-content:center;height:calc(100vh - 120px);z-index:3}
+a.custom-btn.bor.clr-w.red-btn{background:#da291c;margin:30px 0}
+a.custom-btn.bor.clr-w.red-btn:hover{color:#fff}
+.options p{margin:0 10px;font-size:13px}
+.info-list{display:flex;align-items:center;margin:15px 0 15px}
+.options{display:flex;align-items:center}
+span.count{border:1px solid #000;padding:0 5px;border-radius:3px;font-size:13px}
+.answers button{border:1px solid #000;font-size:12px;padding:6px 10px;border-radius:3px;margin-right:20px;cursor:pointer;background:0}
+.step-no{width:40%}
+.input-no-ride{display:flex;border:0;border:1px solid #000 !important;font-size:13px;margin-top:25px;width:25%;height:78px}
+.input-no-ride:focus{outline:none !important}
+.red-checked{background:#da291c !important}
+.green-checked{background:#4caf50 !important}
+.answers{margin:15px 0 15px}
+.survey-form h4{font-size:14px}
+h4.textarea-heading{margin:30px 0 10px}
+.survey-form .black-btn{margin:30px 0 20px !important}
+.feedback-wrapper textarea{border:0;border-bottom:1px solid #000;font-size:13px;resize:none}
+.feedback-wrapper textarea:focus{outline:0}
+span.count.one-count{padding:0 6px}
+.step-3 h5{padding-top:25px}
+.step-no p{padding-top:25px}
+@media screen and (min-width:768px) and (max-width:1300px){.feedback-wrapper .modal-dialog.modal-lg.modal-dialog-centered{max-width:90%}
+.step-3 h2{width:37%}
+}
+@media screen and (max-width:767px){.input-no-ride{width:100%}
+.step-3 h2{width:100%}
+.first-text{width:100%}
+.grey-section{width:auto}
+.grey-section img{width:auto;padding:16px 29px;height:240px;object-fit:cover;margin:0 auto}
+button.close-feedback{position:absolute;right:0;border:1px solid #000;border-radius:50%;padding:4px 9px;color:#000;font-size:20px;top:0;background:0;width:32px;height:32px;float:right;margin:15px 20px 0 0;z-index:2}
+.close-feedback span.icon-close{font-size:11px}
+.grey-section{position:relative;padding:35px 0;height:auto}
+.form-motor{display:block;position:relative}
+.feedback-wrapper .modal-body{padding:4rem 0 0}
+.feedback-wrapper .modal-dialog.modal-lg.modal-dialog-centered{margin-top:30px;margin-bottom:30px;max-width:100%}
+.info-list{align-items:flex-start;flex-direction:column}
+.options{margin-bottom:10px}
+span.count.one-count{padding:1px 7px}
+span.count{padding:1px 6px;font-size:12px}
+.options p{font-size:14px}
+.survey-form h4{font-size:16px}
+.answers span{font-size:16px;padding:9px 14px}
+.answers{margin:15px 0 20px}
+.feedback h2{font-size:20px;line-height:22px}
+.motorcycle-view img{width:180px;margin:-35px 0 10px auto}
+.feedback{position:relative;z-index:2;padding:0 20px}
+.answers button{padding:6px 12px;margin-right:11px}
+.step-no{width:100%}
+}
+@media screen and (min-width:1400px){.grey-section img{width:300px}
+.motorcycle-view img{width:470px}
+.grey-section{height:calc(100vh - 140px);width:420px}
+}
+@media screen and (min-width:950px) and (max-width:1199px){.grey-section img{width:280px}
+.motorcycle-view img{width:280px}
+.feedback{padding:65px 0 20px 30px}
+.grey-section{height:calc(100vh - 100px);width:280px}
+.info-list{flex-wrap:wrap;width:62%}
+.options{margin-bottom:10px}
+}
+@media screen and (min-width:768px) and (max-width:949px){.motorcycle-view img{width:220px}
+.grey-section img{width:250px}
+.grey-section{width:250px}
+span.count{font-size:8px}
+.info-list{flex-wrap:wrap;width:62%}
+.options{margin-bottom:10px}
+}
+@media screen and (max-width:330px){.feedback-wrapper textarea{width:100% !important}
+}

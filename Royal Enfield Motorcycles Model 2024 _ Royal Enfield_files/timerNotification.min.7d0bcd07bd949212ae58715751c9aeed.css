@@ -1,0 +1,55 @@
+.timer-notification-wrapper{background:#fff;color:#000;position:fixed;top:90px;right:40px;width:300px;border-radius:3px;z-index:999;display:none}
+.timer-notification-wrapper .timer-card{display:inline-block;position:relative;width:100%;display:flex}
+.timer-popup-wrapper-main.news-notification-slider .timer-notification-wrapper .timer-card{cursor:default}
+.timer-popup-wrapper-main.news-notification-slider .timer-main-wrapper{display:flex}
+.timer-content{padding:22px 22px 16px 22px}
+.timer-popup-wrapper-main.news-notification-slider .timer-notification-wrapper{width:420px;box-shadow:-1px 1px 8px rgb(0 0 0 / 20%),-1px -1px 8px rgb(0 0 0 / 20%)}
+.timer-popup-wrapper-main.news-notification-slider .timer-notification-wrapper{border-radius:0}
+.timer-popup-wrapper-main.news-notification-slider .timer-content{padding:22px 16px 8px 16px}
+.timer-notification-wrapper picture{width:140px;height:inherit}
+.timer-notification-wrapper .popup-side-img{width:inherit;height:100%;object-fit:cover}
+.timer-popup-wrapper-main.news-notification-slider p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.timer-notification-wrapper .close{width:15px;height:15px;opacity:1;top:10px;right:10px;position:absolute;z-index:1000}
+.timer-notification-wrapper .icon-close{color:#000;font-size:12px;opacity:1;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-text-stroke:1px #000}
+.timer-heading{padding:0 0 3px}
+.timer-content p{font-size:12px;line-height:16px}
+.timer-popup-wrapper-main .know-more-btn-wrapper{display:none}
+.timer-popup-wrapper-main.news-notification-slider .know-more-btn-wrapper{display:block;margin:0 16px 15px}
+.timer-popup-wrapper-main.news-notification-slider .know-more-btn-wrapper #timer-mobile-btn{font-size:12px;padding:6px 12px}
+.timer-notification-wrapper.top-left{left:40px;right:auto;top:90px;bottom:auto}
+.timer-notification-wrapper.top-left-imp{left:40px !important;right:auto !important;top:90px !important;bottom:auto !important}
+.timer-notification-wrapper.top-right{top:90px;right:40px;left:auto;bottom:auto}
+.timer-notification-wrapper.top-right-imp{top:90px !important;right:40px !important;left:auto !important;bottom:auto !important}
+.timer-notification-wrapper.bottom-right{bottom:40px;top:auto;right:40px;left:auto}
+.timer-notification-wrapper.bottom-right-imp{bottom:40px !important;top:auto !important;right:40px !important;left:auto !important}
+.timer-notification-wrapper.bottom-left{bottom:40px;top:auto;left:40px;right:auto}
+.timer-notification-wrapper.bottom-left-imp{bottom:40px !important;top:auto !important;left:40px !important;right:auto !important}
+@media screen and (max-width:767px){.timer-notification-wrapper,.timer-notification-wrapper.top-left,.timer-notification-wrapper.bottom-right,.timer-notification-wrapper.bottom-left,.timer-notification-wrapper.top-right,.timer-notification-wrapper.top-left-imp,.timer-notification-wrapper.bottom-right-imp,.timer-notification-wrapper.bottom-left-imp,.timer-notification-wrapper.top-right-imp{top:50% !important;left:50% !important;transform:translate(-50%,-50%) !important;width:85%;padding-bottom:22px;bottom:auto !important;right:auto !important}
+.timer-popup-wrapper-main.news-notification-slider .timer-notification-wrapper{width:300px}
+.timer-popup-wrapper-main.news-notification-slider .timer-main-wrapper{flex-direction:column}
+.timer-notification-wrapper .timer-card{padding:0;text-align:center;cursor:auto;flex-direction:column}
+.timer-content{padding:22px 22px 2px 22px}
+.timer-heading{padding:0 0 10px}
+.timer-notification-wrapper .close{top:15px;right:15px}
+.timer-notification-wrapper .icon-close{font-size:9px}
+.timer-popup-wrapper-main .know-more-btn-wrapper{text-align:center;display:block;margin-top:15px}
+.timer-notification-wrapper .custom-btn.bor.clr-b{margin-top:5px;font-size:12px;border-color:#bbb}
+.popup-open-mobile{overflow:hidden !important}
+.timer-popup-overlay{position:fixed;z-index:9999;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);visibility:hidden;opacity:0;transition:visibility 0 linear .3s,opacity .3s}
+.popup-open-mobile .timer-popup-overlay{opacity:1;visibility:visible;transition-delay:0}
+.popup-open-mobile .timer-notification-wrapper{z-index:10000}
+.popup-open-mobile .timer-notification-wrapper .close{z-index:10001}
+.timer-notification-wrapper .popup-side-img{width:100%}
+.timer-popup-wrapper-main.news-notification-slider .timer-content{text-align:left;padding:15px 15px 0 15px}
+.timer-popup-wrapper-main.news-notification-slider .know-more-btn-wrapper{text-align:left;margin:5px 16px 0}
+.timer-popup-wrapper-main.news-notification-slider .timer-heading{padding:0 0 8px;font-size:18px;line-height:22px}
+.timer-popup-wrapper-main.news-notification-slider .timer-content p{font-size:14px;line-height:16px;color:#666}
+.timer-notification-wrapper picture{width:100%;height:165px}
+.timer-notification-wrapper .popup-side-img{width:100%;height:100%;object-fit:cover}
+.timer-popup-wrapper-main.news-notification-slider p{-webkit-line-clamp:unset}
+}
+.img-left.content-wrapper{display:flex;gap:10px}
+.content-icon{width:auto;margin:auto auto 5px}
+.img-right.content-wrapper{display:flex;gap:10px;flex-direction:row-reverse}
+@media screen and (max-width:767px){.img-left.content-wrapper{flex-direction:column}
+}

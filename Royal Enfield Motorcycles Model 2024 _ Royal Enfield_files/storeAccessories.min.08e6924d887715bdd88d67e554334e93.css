@@ -1,0 +1,87 @@
+h2#username{font-family:"montserrat-regular";font-weight:700;padding-bottom:5px;font-size:26px;line-height:30px}
+.rh-text.checkout-txt span{font-weight:normal;font-size:16px;color:#777}
+.ga-store-acc-modal .modal-body{display:flex;padding:0;position:relative}
+p.rh-text.checkout-txt{color:#777}
+.rh-text .custom-btn.clr-b.bor{font-weight:bold;border:2px solid #000}
+.ga-store-acc-modal .modal-dialog.modal-lg.modal-dialog-centered{max-width:85%}
+.ga-store-acc-modal .modal-content{border-radius:0}
+.ga-popup-lh{width:50%;padding:0;background:#fff;display:flex;flex-direction:column;justify-content:space-around}
+.popup-lh-top{padding:15px 20px 0 30px}
+.popup-lh-top .welcome-txt{font-size:20px;line-height:24px;padding:5px 90px 0 0}
+.popup-lh-top p{color:#777}
+p.rh-text.accessories-txt{color:#777;width:85%;font-size:16px;line-height:20px}
+.booked-bike-modal .ga-popup-lh .accessories-txt{padding:15px 40px 0 0}
+.popup-lh-top .btn-red{background:#da291c !important;color:#fff !important;border-color:#da291c !important;margin:15px 0;font-weight:700}
+.ga-popup-rh{width:85%;padding:25px 120px 20px 65px;background:#ededed}
+.ga-acc-list p{padding:5px 0 2px;line-height:16px;font-weight:bold;font-size:18px}
+.ga-acc-item{padding:5px 7px 6px;width:33.333%;display:inline-block}
+.ga-acc-list-slider{margin:0 -7px}
+.rh-text{line-height:18px;padding:5px 0}
+.rh-text span{font-weight:bold}
+.rh-text .custom-btn.clr-b.bor{width:auto;margin-left:auto}
+.checkout-txt{display:flex;align-items:center}
+.checkout-txt span{margin-right:20px}
+.booked-bike-modal button.close{position:absolute;right:20px;top:10px;color:#000 !important;font-size:32px;opacity:1;font-weight:100;z-index:9}
+.booked-bike-modal button.close:hover,.booked-bike-modal button.close:focus{opacity:1}
+.ga-acc-list-slider{height:auto;object-fit:cover}
+.ga-popup-lh .accessories-txt,.ga-store-acc-modal.booked-bike-modal .ga-popup-rh .accessories-txt{display:none}
+.booked-bike-modal .ga-popup-lh .accessories-txt,.ga-popup-rh .accessories-txt{display:block}
+.ga-acc-item img{border-radius:6px;box-shadow:2px 2px 6px rgb(0 0 0 / 7%),-2px -2px 6px rgb(0 0 0 / 7%)}
+@media screen and (min-width:768px) and (max-width:1300px){.ga-store-acc-modal .modal-dialog.modal-lg.modal-dialog-centered{max-width:90%}
+}
+@media screen and (max-width:1120px){.rh-text .custom-btn.clr-b.bor{width:40%}
+}
+@media screen and (min-width:768px) and (max-width:992px){.ga-popup-lh{width:40%}
+.popup-lh-top{padding:15px 20px 0 20px}
+.ga-popup-rh{width:65%;padding:25px 65px 20px 35px}
+}
+@media screen and (max-width:767px) and (min-width:560px){.ga-popup-lh{padding:50px 0 50px !important}
+}
+@media screen and (max-width:767px){.ga-acc-list p{font-size:14px}
+.ga-acc-item img{border-radius:2px}
+h2#username{font-size:18px;line-height:22px}
+.popup-lh-top .welcome-txt{font-size:16px;line-height:20px;padding:5px 45px 0 0}
+.popup-lh-top .btn-red{font-weight:normal}
+.ga-store-acc-modal .modal-dialog.modal-lg.modal-dialog-centered{max-width:100%}
+.ga-store-acc-modal .modal-body{flex-direction:column}
+p.rh-text.accessories-txt{font-size:12px;line-height:16px}
+.ga-popup-lh{width:100%;position:relative;padding:25px 0 0}
+.popup-lh-top p{font-size:14px;line-height:18px}
+.popup-lh-top{width:80%}
+.popup-lh-top{padding:0 20px 0}
+.ga-popup-rh{width:100%;padding:15px 20px 10px 20px}
+.rh-text:first-child{width:90%;padding-bottom:10px}
+.ga-acc-list-slider{padding:0 0 22px}
+.ga-acc-list-slider.slick-slider .slick-dots{bottom:8px;display:flex;justify-content:center;align-items:center}
+.ga-acc-list-slider.slick-slider .slick-dots li:hover,.ga-acc-list-slider.slick-slider .slick-dots li.slick-active{background:#000;border:solid thin #000}
+.ga-acc-list-slider.slick-slider .slick-dots li{background:#999;border:solid thin #999;height:7px;width:7px}
+.rh-text.checkout-txt span{color:#777;font-weight:normal;font-size:12px;text-align:center;margin:0 10px 0}
+.checkout-txt{flex-direction:column;text-align:center}
+.rh-text .custom-btn.clr-b.bor{width:auto;margin:10px auto 0;font-weight:bold;border:2px solid #000}
+.ga-popup-bottom{position:absolute;bottom:0;right:0;width:40%}
+.booked-bike-modal .ga-popup-lh .accessories-txt{padding:15px 0 10px 0;width:80%}
+}
+@media screen and (min-width:1600px) and (max-width:1800px){h2#username{font-size:32px;line-height:36px}
+.popup-lh-top .welcome-txt{font-size:24px;line-height:28px}
+.popup-lh-top .btn-red{font-size:20px;padding:20px 25px 20px 25px}
+}
+@media screen and (min-width:1801px){h2#username{font-size:36px;line-height:40px}
+.popup-lh-top .welcome-txt{font-size:28px;line-height:32px;padding:10px 125px 10px 0}
+.popup-lh-top .btn-red{font-size:24px;padding:20px 25px 20px 25px}
+p.rh-text.accessories-txt{font-size:24px;line-height:28px}
+p.rh-text.checkout-txt{font-size:24px;line-height:28px;color:#777}
+.ga-acc-list p{line-height:30px;font-size:26px}
+.rh-text .custom-btn.clr-b.bor{font-size:20px;line-height:24px}
+.booked-bike-modal button.close{font-size:50px}
+.ga-popup-rh{padding:25px 150px 20px 65px}
+}
+@media screen and (min-width:1120px) and (max-width:1160px){.rh-text .custom-btn.clr-b.bor{width:33%}
+}
+@media screen and (min-width:768px) and (max-width:1300px){h2#username{font-size:20px;line-height:24px}
+.popup-lh-top .welcome-txt{font-size:16px;line-height:20px;padding:5px 70px 0 0}
+p.rh-text.accessories-txt{font-size:14px;line-height:18px}
+.ga-acc-list p{line-height:18px;font-size:16px}
+}
+@media screen and (min-width:992px) and (max-width:1300px){.ga-popup-rh{padding:25px 100px 20px 65px}
+}
+.arial-ft h2#username{font-family:"Arial-bold"}

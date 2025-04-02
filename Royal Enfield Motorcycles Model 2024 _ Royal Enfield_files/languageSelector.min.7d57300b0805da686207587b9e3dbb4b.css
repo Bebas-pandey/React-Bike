@@ -1,0 +1,78 @@
+.region-wise-lang{width:max-content}
+.language.region-wise-lang a{padding:23.5px 5px 21px 7px;display:flex;align-items:center}
+.language.region-wise-lang:before{margin-top:2.5px}
+.region-wise-lang .icon-globe,.flag-selected{padding:1px 0 0 0}
+.region-wise-lang .icon-globe{display:none}
+.flag-selected img{width:30px;height:20px;object-fit:cover}
+.lang-selected{padding:3px 6px 0 5px}
+.region-img-wrapper img{width:200px}
+.region-row{width:68%;margin:55px auto 0 !important;justify-content:center}
+.heading-top{font-family:'guardiansans-medium'}
+.region-box{padding:0 18px}
+.region-name{padding:18px 0 0;font-family:'guardiansans-medium';font-size:16px}
+.region-box a:hover .region-name,.active-red{color:#da291c !important}
+.country-option-main:hover .country-name{color:#da291c}
+.back-region-btn{position:absolute;top:2px;left:90px;padding:5px 5px 5px 30px;font-family:'guardiansans-medium';font-size:15px}
+.back-region-btn:before{position:absolute;content:'\0042';font-weight:bold;font-size:17px;left:5px;top:50%;transform:translateY(-50%) rotate(180deg);font-family:'reicons';margin-top:-1px}
+.country-select-wrapper .row{width:76%;margin:30px auto 80px}
+.countries-list{padding-left:80px}
+.countries-list .region-name{margin-bottom:15px}
+.country-option{width:calc(50% - 3px);margin:15px 0}
+.flag-img{width:30px;height:20px}
+.country-option-main .country-name{color:#fff;font-family:'guardiansans-regular';letter-spacing:.5px;margin:0 5px 8px 10px !important}
+.lang-option-main{color:#fff;margin:0 0 0 10px;font-family:'guardiansans-regular'}
+.lang-option-main:hover{color:#da291c}
+.countriesList{width:100%;display:flex;flex-wrap:wrap}
+.region-img-lg-wrapper{position:fixed !important;right:100px;width:30%;top:60%;transform:translateY(-50%)}
+.region-img-lg{height:380px;object-fit:contain}
+@media screen and (min-width:1600px){.region-img-lg{height:450px}
+}
+@media screen and (max-width:1680px){.language.region-wise-lang a{padding:23.5px 3px 21px 5px}
+}
+@media screen and (max-width:1600px){.language.region-wise-lang a{padding:24px 2px 21px 5px}
+.language.region-wise-lang:before{margin-top:1.5px}
+.lang-selected{padding:2px 6px 0 5px}
+}
+@media screen and (max-width:1500px){.language.region-wise-lang:before{font-size:10px}
+header .icon-arrow-down{margin-top:4px}
+.language.region-wise-lang a{padding:24px 0 23px 5px}
+.language.region-wise-lang:before{margin-top:1px}
+}
+@media screen and (max-width:1350px){.language.region-wise-lang a{padding:26px 0 23px 5px}
+.language.region-wise-lang:before{margin-top:2px}
+}
+@media screen and (max-width:1250px){.region-img-wrapper img{width:170px}
+}
+@media screen and (max-width:1150px){.region-row{width:80%}
+}
+@media screen and (max-width:1024px){.region-box{padding:0 12px}
+.country-select-wrapper .row{width:88%}
+.back-region-btn{left:50px}
+.flag-selected img{width:25px;height:17px}
+.region-img-wrapper img{width:100%}
+}
+@media screen and (max-width:767px){.header .language.region-wise-lang{margin-right:25px}
+.flag-selected{padding:0}
+.flag-selected img{width:20px;height:14px}
+.language.region-wise-lang a{padding:13px 4px 8px}
+.region-wise-lang .icon-globe{padding:3px 0 0 0}
+.lang-selected{padding:3px 0 0 5px}
+.region-select-wrapper{padding:0 10px}
+.region-row{width:100%;margin:40px auto 50px;justify-content:initial}
+.region-box{padding:0 10px;margin:0 0 45px !important}
+.country-select-wrapper{padding:0 30px}
+.back-region-btn{left:25px}
+.country-select-wrapper .heading-top{padding-top:55px}
+.country-select-wrapper .container{padding:0}
+.country-select-wrapper .row{width:100%;margin:0 auto}
+.country-select-wrapper .row>*{padding:0}
+.country-option{width:100%;margin:14px 0}
+.country-select-wrapper .row .countries-list{padding-bottom:20px}
+.countriesList{flex-direction:column}
+.back-image-mobile{background-repeat:no-repeat;background-position:center;background-attachment:fixed;min-height:550px}
+}
+.language-selector::-webkit-scrollbar{width:5px}
+.language-selector::-webkit-scrollbar-thumb{background-color:#212121;outline:0}
+.language-selector::-webkit-scrollbar-track{background-color:#5b5b5b}
+.arial-ft .heading-top,.arial-ft .region-name,.arial-ft .back-region-btn{font-family:'Arial-bold'}
+.arial-ft .country-option-main .country-name,.arial-ft .lang-option-main{font-family:'Arial'}

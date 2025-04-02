@@ -1,0 +1,21 @@
+.cookieDiv{display:none}
+.disc-img-row{display:none}
+a.custom-btn.clr-b.btn-home{margin:0 10px}
+.disc-custom-builder .disc-img-row{display:flex;margin:0}
+.disc-custom-builder .disc-img-col{width:20%}
+@media screen and (max-width:767px){.disc-custom-builder .disc-img-col{width:50%}
+}
+.gdpr-lang-selector{position:fixed;left:0;right:0;top:0;bottom:0;width:100%;height:100%}
+.gdpr-lang-selector .main-bg-img{width:100%;height:inherit;object-fit:cover}
+.top-logo,.gdpr-lang-box{position:absolute;left:50%;transform:translateX(-50%)}
+.top-logo{top:45px}
+.gdpr-lang-box{top:40%}
+.gdpr-lang-box h2{font-family:'guardiansans-medium';font-size:22px;line-height:26px}
+.custom-btn.clr-w.bor.lang-btn-main{margin:30px 15px 20px;padding:12px 60px;font-family:'guardiansans-regular';letter-spacing:.5px;font-size:16px}
+.custom-btn.clr-w.bor.lang-btn-main:hover,.custom-btn.clr-w.bor.lang-btn-main:focus,.custom-btn.clr-w.bor.lang-btn-main.active-border-red{background:transparent;color:#da291c;border-color:#da291c}
+@media screen and (max-width:767px){.custom-btn.clr-w.bor.lang-btn-main{width:60%;margin:10px auto}
+.custom-btn.clr-w.bor.lang-btn-main:first-of-type{margin-top:30px}
+.gdpr-lang-box{top:35%}
+}
+.arial-ft .gdpr-lang-box h2{font-family:"Arial-bold"}
+.arial-ft .custom-btn.clr-w.bor.lang-btn-main{font-family:"Arial"}

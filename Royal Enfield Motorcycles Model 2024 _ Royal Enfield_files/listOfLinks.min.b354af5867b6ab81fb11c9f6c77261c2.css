@@ -1,0 +1,32 @@
+.list-of-links h3{font-size:20px;color:#000;margin:0 0 15px}
+.list-of-links h3 a{color:#4f4f4f}
+.list-of-links h3 .icon-arrow-down{display:none}
+.list-of-links a:hover{color:#000}
+.list-of-links .nav-list{width:100%;display:inline-block}
+.list-of-links .nav-list li{float:none;padding:0}
+.list-of-links .nav-list li:first-child{padding-left:0}
+.list-of-links .nav-list li a{font-size:13px;cursor:pointer;color:#000;line-height:30px;text-decoration:none}
+.list-of-links .nav-list li a:hover{color:#da291c}
+.list-of-links .nav-list li .icon-arrow-down{font-size:10px;padding-left:7px;color:#000}
+.list-of-links .nav-list li .icon-arrow-down:before{-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0);-webkit-transition:.6s;-o-transition:.6s;-moz-transition:.6s;transition:.6s}
+.list-of-links .nav-list li:hover a,.list-of-links .nav-list li:hover .icon-arrow-down{color:#da291c}
+.list-of-links .nav-list-children ul{margin:0 10px 10px;display:none}
+.list-of-links .nav-list-children ul li a{font-size:11px;line-height:20px;color:#000}
+.list-of-links .nav-list-children.active a,.list-of-links .nav-list-children.active .icon-arrow-down{color:#da291c}
+.list-of-links .nav-list-children.active ul{display:block}
+.list-of-links .nav-list-children.active ul li a{color:#000}
+.list-of-links .nav-list-children.active ul li a:hover{color:#da291c}
+.list-of-links .nav-list-children.active .icon-arrow-down:before{-webkit-transform:rotate(-180deg);-moz-transform:rotate(-180deg);-ms-transform:rotate(-180deg);-o-transform:rotate(-180deg);transform:rotate(-180deg);color:#da291c}
+@media screen and (max-width:1400px){.list-of-links h3{font-size:18px}
+}
+@media screen and (max-width:1024px){.list-of-links{margin-bottom:25px}
+}
+@media screen and (max-width:767px){.list-of-links h3{margin:0}
+.list-of-links h3 .icon-arrow-down{display:inline-block;font-size:12px;line-height:normal;padding-right:10px}
+.list-of-links h3 .icon-arrow-down:before{-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0);-webkit-transition:ease all .6s;-o-transition:ease all .6s;-moz-transition:ease all .6s;transition:ease all .6s}
+.list-of-links .nav-list{display:none;margin:10px 25px}
+.list-of-links.active .nav-list{display:inline-block}
+.list-of-links.active h3{color:#da291c}
+.list-of-links.active h3 .icon-arrow-down{color:#da291c}
+.list-of-links.active h3 .icon-arrow-down:before{-webkit-transform:rotate(-180deg);-moz-transform:rotate(-180deg);-ms-transform:rotate(-180deg);-o-transform:rotate(-180deg);transform:rotate(-180deg)}
+}

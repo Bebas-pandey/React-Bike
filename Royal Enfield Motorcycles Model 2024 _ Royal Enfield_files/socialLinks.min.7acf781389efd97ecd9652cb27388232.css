@@ -1,0 +1,17 @@
+.social-links p{display:inline-block;vertical-align:middle;margin:0}
+.social-links ul{display:inline-block;vertical-align:middle;position:relative;width:auto;float:none}
+.social-links ul li{width:auto;display:inline-block;vertical-align:middle;padding:0 10px}
+.social-links ul li a span{font-size:25px}
+.social-links ul li a .icon-tw,.social-links ul li a .icon-yt{font-size:28px}
+.social-links ul li a{color:#000}
+.social-links ul li a:hover .icon-fb{color:#385699}
+.social-links ul li a:hover .icon-tw{color:#22cbff}
+.social-links ul li a:hover .icon-yt{color:#da291c}
+.social-links ul li a:hover .icon-ig{color:#32628a;background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:#0000002e;display:inline-block}
+.social-links ul li a:hover .icon-gp{color:#de4931}
+.social-links ul li a:hover .reicons-linkedin{color:#0072b1}
+.icon-linkedin img{width:25px;margin-top:-6px}
+@media screen and (max-width:767px){.social-links{text-align:center;margin-top:15px}
+.social-links p{display:block;margin-bottom:10px}
+.social-links ul{margin-top:15px;text-align:left}
+}
