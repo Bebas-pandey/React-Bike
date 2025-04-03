@@ -30,9 +30,9 @@ const Contact = () => {
       <div className="contact-details">
         <p>If you have any questions, feel free to reach out to us!</p>
         <ul>
-          <li><strong>Address:</strong> 123 Main Street, City, Country</li>
-          <li><strong>Phone:</strong> (123) 456-7890</li>
-          <li><strong>Email:</strong> info@example.com</li>
+          <li><strong>Address:</strong> Tilottama-3-janakinagar,Rupandehi</li>
+          <li><strong>Phone:</strong> 9846690222</li>
+          <li><strong>Email:</strong> bebaspandey9@gmail.com</li>
         </ul>
       </div>
 

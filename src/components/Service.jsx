@@ -68,7 +68,7 @@ const blogPosts = [
         {/* Service Section */}
         <div className="container1 text-center mt-5">
           <h2>
-          <button className="btn btn-success ms-3">Our Services
+          <button className="btn  ms-3" style={{textDecoration:"underline", fontSize:"25px", fontWeight:"bold" }}>Our Services
             </button>
           </h2>
           <p>We provide premium maintenance and servicing for high-performance motorcycles.</p>

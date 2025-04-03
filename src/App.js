@@ -17,6 +17,8 @@ import HarleyDavidson from "./components/HarleyDavidson";
 import Service from "./components/Service";
 import Contact from "./components/Contact";
 import Booking from "./components/Booking";
+import Login from "./components/Login";
+import Register from "./components/Register";
 
 const App = () => {
   return (
@@ -48,6 +50,8 @@ const App = () => {
           <Route path="/service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Booking" element={<Booking />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
          
 
         </Routes>
