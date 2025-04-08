@@ -12,12 +12,12 @@ const HeroSection = () => {
       <div className="hero position-relative text-center">
         <img
           className="image1"
-          src="https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/11/RE_Meteor_650.jpg?fit=1200%2C675&ssl=1"
+          src="https://e0.pxfuel.com/wallpapers/126/115/desktop-wallpaper-tony-kokhan-moto-bike-fire-abstract-fenix-eu-abstract-motorcycle.jpg"
           alt="Bike"
         />
         <img
           className="image2"
-          src="https://img.onmanorama.com/content/dam/mm/en/news/business/images/2021/2/7/royal-enfield-meteor-350-1.jpg"
+          src="https://e0.pxfuel.com/wallpapers/861/288/desktop-wallpaper-bike-fire-fire-motorcycle.jpg"
           alt="Bike"
         />
         <div className="hero-content position-absolute top-50 start-50 translate-middle text-white">

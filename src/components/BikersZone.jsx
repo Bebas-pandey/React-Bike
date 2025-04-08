@@ -37,7 +37,16 @@ const BikersZone = () => {
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <h1 className="m-0">Bikers Zone</h1>
+        <Link to="/" className="navbar-brand">
+      <img 
+        src="https://img.freepik.com/premium-vector/stencil-art-skull-ghost-black-white-image-vector-biker-riding-motorcycle-white-background_1021418-12574.jpg" 
+        alt="Bikers Zone Logo" 
+        style={{ height: "50px", width:"80px" }} // Adjust height as needed
+        
+      />
+      
+    </Link>
+    
           <button
             className="navbar-toggler"
             type="button"
