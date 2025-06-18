@@ -30,7 +30,7 @@ const Login = () => {
     <section 
       className="login-container d-flex align-items-center justify-content-center flex-column text-center"
       style={{
-        backgroundImage: "url('https://previews.123rf.com/images/avtorpainter/avtorpainter2103/avtorpainter210300001/166200144-burning-skull-evil-person-skull-biker-sits-on-a-bike-skull-riding-a-motorcycle-tattoo-biker.jpg')",
+        // backgroundImage: "url('https://previews.123rf.com/images/avtorpainter/avtorpainter2103/avtorpainter210300001/166200144-burning-skull-evil-person-skull-biker-sits-on-a-bike-skull-riding-a-motorcycle-tattoo-biker.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "100vh",

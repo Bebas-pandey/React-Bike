@@ -31,7 +31,7 @@ const Register = () => {
     <section 
       className="login-container d-flex align-items-center justify-content-center flex-column text-center"
       style={{
-        backgroundImage: "url('https://thumbs.dreamstime.com/b/simplistic-cartoon-style-triumph-motorcycle-coloring-old-classic-motorcycle-drawing-simple-line-style-hd-mod-bold-black-284306107.jpg')",
+        // backgroundImage: "url('https://thumbs.dreamstime.com/b/simplistic-cartoon-style-triumph-motorcycle-coloring-old-classic-motorcycle-drawing-simple-line-style-hd-mod-bold-black-284306107.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "100vh",
